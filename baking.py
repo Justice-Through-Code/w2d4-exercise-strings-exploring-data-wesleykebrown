@@ -64,7 +64,7 @@ def favorite_bake():  # User Input/Type conversion
 
     # 3.2 Create a second variable called `frequency` that asks the user:
     # Roughly how many times a month do you eat <baked_good>s? <-- use your `baked_good` variable in an f-string here
-    frequency = input(f"How many times a month do you eat {baked_good}s?")
+    frequency = input(f'How many times a month do you eat {baked_good}s?')
 
     # When the user inputs a number, what data type is it saved as?
     # 3.3 Print out the _type_ of the `frequency` variable to check.
